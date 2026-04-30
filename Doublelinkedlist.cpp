@@ -36,3 +36,6 @@ public:
             }
 
             newNode->next = START;
+
+            if (START != NULL)
+                START->prev = newNode;
