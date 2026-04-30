@@ -15,3 +15,6 @@ private:
 
 public:
     DoubleLinkedList()
+    {
+        START = NULL;
+    }
