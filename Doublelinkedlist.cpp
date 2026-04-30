@@ -39,3 +39,5 @@ public:
 
             if (START != NULL)
                 START->prev = newNode;
+
+            newNode->prev = NULL;
