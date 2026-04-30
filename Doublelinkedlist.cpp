@@ -25,3 +25,4 @@ public:
         cin >> nim;
 
         Node *newNode = new Node();
+        newNode->noMhs = nim;
